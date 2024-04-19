@@ -59,3 +59,11 @@ section {
     color: #cdc6ff;
     font-size: 13px;
 }
+
+h2 {
+    margin: 20px 0;
+    font-size: 30px;
+}
+.result p:last-child {
+    color: #cdc6ff;
+}
