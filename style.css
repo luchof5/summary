@@ -64,6 +64,27 @@ h2 {
     margin: 20px 0;
     font-size: 30px;
 }
+
 .result p:last-child {
     color: #cdc6ff;
+}
+
+.summary h3 {
+    margin-bottom: 20px;
+}
+
+.summary p {
+   display: flex;
+   justify-content: space-around;
+   padding: 15px 0;
+   border-radius: 20px;
+   margin: 20px 0;
+}
+
+.summary p span {
+    margin-left: 50px;
+}
+
+.summary strong {
+    font-weight: 500;
 }
