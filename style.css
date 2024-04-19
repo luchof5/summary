@@ -22,8 +22,18 @@ section {
     border-radius: 30px;
 }
 
+@media screen and 
+(max-width: 1000px) {
+    .contein {
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        height: auto;
+    }
+
+}
+
 .result, .summary {
-    width: 50%;
     padding: 30px;
 }
 
@@ -32,6 +42,7 @@ section {
     color: #feffff;
     text-align: center;
     border-radius: 30px;
+    
 }
 
 .result h3 {
@@ -67,6 +78,11 @@ h2 {
 
 .result p:last-child {
     color: #cdc6ff;
+}
+
+.summary {
+    width: 88%;
+
 }
 
 .summary h3 {
