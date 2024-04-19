@@ -88,3 +88,31 @@ h2 {
 .summary strong {
     font-weight: 500;
 }
+
+.summary__reaction {
+    background-color: #fff6f5;
+}
+.summary__reaction strong {
+    color: #d37279;
+}
+
+.summary__memory {
+    background-color: #fffbf2;
+}
+.summary__memory strong {
+    color: #ffe48f;
+}
+
+.summary__verbal {
+    background-color: #f2fafa;
+}
+.summary__verbal strong {
+    color: #36b598;
+}
+
+.summary__visual {
+    background-color: #f3f3fd;
+}
+.summary__visual strong {
+    color: #878ef4;
+}
