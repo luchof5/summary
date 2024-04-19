@@ -38,3 +38,24 @@ section {
     color: #cdc6ff;
     margin-bottom: 30px; 
 }
+
+.result__circle {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%; 
+    background: linear-gradient(#4d22c8, transparent);
+}
+
+.result__circle--numero {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.result__circle p:last-child {
+    color: #cdc6ff;
+    font-size: 13px;
+}
