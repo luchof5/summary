@@ -116,3 +116,18 @@ h2 {
 .summary__visual strong {
     color: #878ef4;
 }
+
+.summary__btn {
+    background-color: #303b59;
+    border: none;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 30px;
+    padding: 20px 0;
+    color: #fffbf2;
+    font-size: 16px;
+    cursor: pointer;
+}
+.summary__btn:hover {
+    background-color: #181f35;
+}
